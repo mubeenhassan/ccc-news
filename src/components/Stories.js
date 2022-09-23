@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap'
 import logo from '../logo-v1.png'
 import Adds from './Adds'
 import Modal from 'react-bootstrap/Modal'
+import Link from "next/link"
 
 const defaultOptions = {
   jsPDF: {
@@ -345,7 +346,7 @@ export default class Stores extends React.Component {
                   />
                 </div>
               </div>
-              Checkout <a href='/obituaries'>Obituaries</a>
+              Checkout <Link href='/obituaries'>Obituaries</Link>
             </div>
             <div className='hr'></div>
 
